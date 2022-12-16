@@ -1,4 +1,5 @@
 import PySimpleGUI as sg
+import function
 
 
 window = sg.Window("POC Tracking App", layout=[""])
