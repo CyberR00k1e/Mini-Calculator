@@ -5,7 +5,7 @@ import function
 button=sg.Button("Add")
 label=sg.InputText("Please provide 2 numbers below with space between them", key="number")
 input=sg.InputText(key="inputs")
-label2=sg.Text(key="output")
+label2=sg.Text("Output", key="output")
 window = sg.Window("Calculator", layout=[[button],[label],[input],[label2]])
 
 
